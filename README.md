@@ -8,3 +8,4 @@ This repository deploys two applications using Helm Charts.
 ## The Issue
 
 - Renovate configuration file is setup to use [registryAliases](https://docs.renovatebot.com/configuration-options/#registryaliases). However, the configuration fails to create a PR on the `traefik` deployment because it cannot find a repository to query.
+- Link to Renovate Issue Discussion - https://github.com/renovatebot/renovate/discussions/26756
