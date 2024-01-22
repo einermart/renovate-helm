@@ -1,0 +1,4 @@
+traefik:
+  platform:
+    deploy: true
+  fullnameOverride: traefik

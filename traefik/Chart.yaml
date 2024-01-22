@@ -1,0 +1,14 @@
+apiVersion: v2
+name: traefik
+description: A Traefik based Kubernetes ingress controller
+home: https://traefik.io/
+icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+version: 2.10.4
+dependencies:
+  - name: traefik
+    version: "23.2.0"
+    condition: traefik.platform.deploy
+    repository: "@traefikproxy"
+sources:
+  - https://github.com/traefik/traefik
+  - https://github.com/traefik/traefik-helm-chart
