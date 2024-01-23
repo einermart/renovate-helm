@@ -8,7 +8,7 @@ dependencies:
   - name: awx-operator
     version: 2.8.0
     condition: awx-operator.platform.deploy
-    repository: "https://nexusrepo.contoso.net/repository/common-awx/"
+    repository: "https://ansible.github.io/awx-operator/"
   - name: postgresql
     version: "12.10.0"
     condition: postgresql.platform.deploy
